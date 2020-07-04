@@ -15,7 +15,7 @@ import (
 
 // claims contains Mercure's JWT claims.
 type claims struct {
-	Mercure mercureClaim `json:"mercure"`
+	Mercure mercureClaim `json:"https://mercure.rocks/"`
 	jwt.StandardClaims
 }
 
